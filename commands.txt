@@ -1,3 +1,8 @@
+/* Basic */
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install software-properties-common apt-transport-https wget
+
 /* Chrome */
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
@@ -7,3 +12,21 @@ rm google-chrome-stable_current_amd64.deb
 wget https://downloads.slack-edge.com/linux_releases/slack-desktop-4.0.2-amd64.deb
 sudo dpkg -i slack-desktop-4.0.2-amd64.deb
 rm slack-desktop-4.0.2-amd64.deb
+
+/* Visual Studio Code */
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo apt-get update
+sudo apt-get install code
+
+/* Git */
+sudo apt-get install git
+
+/* OpenVPN */
+sudo apt-get install openvpn
+
+/* Zoom */
+https://www.zoom.us/download
+
+/* MySQL workbench */
+sudo apt-get install mysql-workbench
