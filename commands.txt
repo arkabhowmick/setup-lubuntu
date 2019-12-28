@@ -21,6 +21,15 @@ sudo apt-get install code
 
 /* Git */
 sudo apt-get install git
+Create a new identity file with the command : `ssh-keygen` in `~/.ssh` folder
+add config file in ~/.ssh/config
+***
+Host github.com
+     User <github username>
+     Hostname github.com
+     PreferredAuthentications publickey
+     IdentityFile ~/.ssh/<filename>
+***
 
 /* OpenVPN */
 sudo apt-get install openvpn
@@ -30,3 +39,10 @@ https://www.zoom.us/download
 
 /* MySQL workbench */
 sudo apt-get install mysql-workbench
+
+/* Snap package manager */
+sudo apt-get install snap
+
+/* Nods JS and NPM */
+sudo snap install node --channel=12/stable --classic
+
