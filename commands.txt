@@ -46,3 +46,5 @@ sudo apt-get install snap
 /* Nods JS and NPM */
 sudo snap install node --channel=12/stable --classic
 
+/* AngularJS with Yeoman */
+npm install -g grunt-cli bower yo generator-karma generator-angular
