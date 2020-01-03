@@ -45,3 +45,6 @@ sudo apt-get install snap
 
 /* Nods JS and NPM */
 sudo snap install node --channel=12/stable --classic
+
+/* NVM */
+wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
