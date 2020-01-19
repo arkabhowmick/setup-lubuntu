@@ -25,10 +25,10 @@
 * add config file in ~/.ssh/config
 ```
 Host github.com
-     User <github username>
-     Hostname github.com
-     PreferredAuthentications publickey
-     IdentityFile ~/.ssh/<filename>
+User <github username>
+Hostname github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/<filename>
 ```
 
 ## OpenVPN
