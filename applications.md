@@ -1,12 +1,12 @@
 ## Basic
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install software-properties-common apt-transport-https wget
+* sudo apt-get update
+* sudo apt-get upgrade
+* sudo apt-get install software-properties-common apt-transport-https wget
 
 ## Chrome
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo dpkg -i google-chrome-stable_current_amd64.deb
-rm google-chrome-stable_current_amd64.deb
+* wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+* sudo dpkg -i google-chrome-stable_current_amd64.deb
+* rm google-chrome-stable_current_amd64.deb
 
 ## Slack
 wget https://downloads.slack-edge.com/linux_releases/slack-desktop-4.0.2-amd64.deb
