@@ -23,13 +23,13 @@
 * sudo apt-get install git
 * Create a new identity file with the command : `ssh-keygen` in `~/.ssh` folder
 * add config file in ~/.ssh/config
-
-_Host github.com
-     _User <github username>_
-     _Hostname github.com_
-     _PreferredAuthentications publickey_
-     _IdentityFile ~/.ssh/<filename>_
-
+```
+Host github.com
+     User <github username>
+     Hostname github.com
+     PreferredAuthentications publickey
+     IdentityFile ~/.ssh/<filename>
+```
 
 ## OpenVPN
 * sudo apt-get install openvpn
