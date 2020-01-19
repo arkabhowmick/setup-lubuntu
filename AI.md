@@ -1,20 +1,20 @@
-/* Anaconda */
+# Anaconda
 https://www.anaconda.com/distribution/
 
-/* Tensorflow */
+# Tensorflow
 pip install tensorflow
 
-/* Theano */
+# Theano 
 pip install theano
 
-/* Keras */
+# Keras 
 pip install keras
 
-/* Update all libraries */
+# Update all libraries
 conda update --all
 
-/* Install nvdia cuda core drivers for tensorflow */
-# Add NVIDIA package repositories
+# Install nvdia cuda core drivers for tensorflow
+## Add NVIDIA package repositories
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-repo-ubuntu1804_10.0.130-1_amd64.deb
 sudo dpkg -i cuda-repo-ubuntu1804_10.0.130-1_amd64.deb
 sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/7fa2af80.pub
@@ -23,13 +23,13 @@ wget http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1
 sudo apt install ./nvidia-machine-learning-repo-ubuntu1804_1.0.0-1_amd64.deb
 sudo apt-get update
 
-# Install NVIDIA driver
+## Install NVIDIA driver
 sudo apt-get install --no-install-recommends nvidia-driver-418
-# Reboot. Check that GPUs are visible using the command: nvidia-smi
+## Reboot. Check that GPUs are visible using the command: nvidia-smi
 
-# Install TensorRT. Requires that libcudnn7 is installed above.
+## Install TensorRT. Requires that libcudnn7 is installed above.
 sudo apt-get install -y --no-install-recommends libnvinfer5=5.1.5-1+cuda10.0 \
     libnvinfer-dev=5.1.5-1+cuda10.0
 
-# Install Tensorflow
+## Install Tensorflow
 https://github.com/markjay4k/Install-Tensorflow-on-Ubuntu-17.10-/blob/master/Tensorflow%20Install%20instructions.ipynb
