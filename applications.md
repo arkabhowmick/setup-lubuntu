@@ -48,3 +48,5 @@ IdentityFile ~/.ssh/<filename>
 
 ## NVM 
 * wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+* nvm install 12
+* nvm install 8
